@@ -1,6 +1,5 @@
-package designpattern.singleton;
+package singleton;
 
-import initializationorder.TestInitOrder;
 //饿汉模式 类加载时 instance变量被实例化
 class EagerSingleton {
     private static final EagerSingleton intance = new EagerSingleton();
