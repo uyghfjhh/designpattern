@@ -1,7 +1,7 @@
 CPPFLAGS +=  -std=c++11 -g -Wall
 LDFLAGS += 
 
-BINARIES := observerdemo iteratordemo singletondemo strategydemo fasadedemo chanofresponsibilitydemo builderdemo  factorymethod prototypedemo proxydemo decoratordemo adapterdemo adapterdemo1 compositedemo flyweightdemo templatemethoddemo statedemo statedemo2
+BINARIES := observerdemo iteratordemo singletondemo strategydemo fasadedemo chanofresponsibilitydemo builderdemo  factorydemo prototypedemo proxydemo decoratordemo adapterdemo adapterdemo1 compositedemo flyweightdemo templatemethoddemo statedemo statedemo2
 
 HEADERS=$(wildcard *.h)
 all: $(BINARIES)
@@ -14,7 +14,7 @@ chanofresponsibilitydemo: ChanOfResponsibilityDemo.cpp
 singletondemo: SingletonDemo.cpp
 strategydemo: StrategyDemo.cpp
 fasadedemo: Fasadedemo.cpp
-factorymethod: FactoryMethod.cpp
+factorydemo: Factory.cpp
 builderdemo: BuilderDemo.cpp
 prototypedemo: ProtoTypeDemo.cpp
 proxydemo: ProxyDemo.cpp
