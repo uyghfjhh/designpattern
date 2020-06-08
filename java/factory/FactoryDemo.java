@@ -1,3 +1,4 @@
+//author sbkun
 package factory;
 
 abstract class HwPhone {
@@ -130,5 +131,4 @@ public class FactoryDemo {
         System.out.println("\n====================\n");
         testAbstractFactory();
     }
-
 }
