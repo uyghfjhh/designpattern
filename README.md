@@ -8,6 +8,7 @@
 4. 构建者模式(builder)	[博客](https://blog.csdn.net/uyghfjhh/article/details/106431668)
 
 ## 结构型模式
+1. 组合模式(composite) [博客](https://blog.csdn.net/uyghfjhh/article/details/106631227)
 
 ## 行为型模式
 1. 迭代器模式(iterator)	[博客](https://blog.csdn.net/uyghfjhh/article/details/106557989)
@@ -15,6 +16,8 @@
 3. 策略模式(strategy)		[博客](https://blog.csdn.net/uyghfjhh/article/details/106560955)
 4. 命令模式(command)    [博客](https://blog.csdn.net/uyghfjhh/article/details/106577761)
 5. 中介者模式(mediator) [博客](https://blog.csdn.net/uyghfjhh/article/details/106580476)
+
+
 
 熬夜撸码不易, 如果有帮助到您, 烦请赏个star
 
