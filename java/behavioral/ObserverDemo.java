@@ -1,4 +1,4 @@
-package designpattern.observer;
+package behavioral;
 
 import java.util.Map;
 import java.util.HashMap;
@@ -21,11 +21,9 @@ class Stock {
     String getName() {
         return this.name;
     }
-
     double getPrice() {
         return this.price;
     }
-
 }
 
 interface StockObservable {
@@ -42,7 +40,6 @@ class Market implements StockObservable {
         addStock("one", 1.1);
         addStock("two", 2.1);
     }
-
 
     private void addStock(String name, double price) {
         if (!stocks.containsKey(name)) {
@@ -93,7 +90,7 @@ interface StockObserver {
 class Investor implements StockObserver {
     @Override
     public void onPriceChanged(Stock stock) {
-        System.out.println(this.getClass().getName() + ":" + "know that stock's price changed->"+stock.getPrice());
+        System.out.println(this.getClass().getSimpleName() + ":" + "know that stock's price changed->" + stock.getPrice());
     }
 }
 
@@ -101,13 +98,11 @@ class Investor implements StockObserver {
 class Admin implements StockObserver {
     @Override
     public void onPriceChanged(Stock stock) {
-        System.out.println(this.getClass().getName() + ":" + "know that stock's price changed->"+stock.getPrice());
+        System.out.println(this.getClass().getSimpleName() + ":" + "know that stock's price changed->" + stock.getPrice());
     }
-
 }
 
-
-public class Observer_demo1 {
+public class ObserverDemo {
     public static void main(String args[]) {
         Market m = new Market();
         Investor i = new Investor();
@@ -119,7 +114,6 @@ public class Observer_demo1 {
 
         m.setStockPrice("one", 1.2);
         m.setStockPrice("two", 2.2);
-
     }
 }
 

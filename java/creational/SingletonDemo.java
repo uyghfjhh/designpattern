@@ -1,4 +1,4 @@
-package singleton;
+package creational;
 
 //饿汉模式 类加载时 instance变量被实例化
 class EagerSingleton {
@@ -9,7 +9,9 @@ class EagerSingleton {
     public void foo() {
         System.out.println(this.getClass().getSimpleName()+" foo");
     }
-    private EagerSingleton() {}
+    private EagerSingleton() {
+        System.out.println(this.getClass().getSimpleName()+" init");
+    }
 
 }
 
@@ -81,9 +83,11 @@ class LazySingleton3 {
 }
 
 
-public class Singleton_demo {
-    public static void main(String args[]) {
+public class SingletonDemo {
+    public static void main(String args[]) throws ClassNotFoundException {
         EagerSingleton.getInstance().foo();
         LazySingleton.getInstance().foo();
+        //让JVM加载指定的类，比执行其静态方法
+        //Class.forName("creational.EagerSingleton");
     }
 }

@@ -1,4 +1,4 @@
-package designpattern.strategy;
+package behavioral;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -64,7 +64,7 @@ class Product {
     private double original_price;
 }
 
-public class Strategy_demo1 {
+public class StrategyDemo {
     public static void main(String args[]) {
         System.out.println("in main");
         Product product = new Product(100);

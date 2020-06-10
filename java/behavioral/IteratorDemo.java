@@ -1,4 +1,4 @@
-package designpattern.iterator;
+package behavioral;
 import java.util.Arrays;
 import java.util.Iterator;
 
@@ -43,7 +43,7 @@ class MyArray<T> implements Iterable<T> {
 }
 
 
-public class Iterator_demo {
+public class IteratorDemo {
     public static void main(String args[]) {
         MyArray<Integer> array = new MyArray<Integer>(new Integer[]{1, 2, 3, 4, 5});
         for (Iterator<Integer> it = array.reverseIterator(); it.hasNext(); ) {

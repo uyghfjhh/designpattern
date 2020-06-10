@@ -1,0 +1,12 @@
+behavioral (total number is 11)
+- [x] 1.mediator
+- [x] 2.command
+- [x] 3.strategy
+- [x] 4.state
+- [x] 5.iterator
+- [x] 6.ovserver
+- [x] 7.chain of responsibility
+- [x] 8.template method
+- [x] 9.visitor
+- [ ] 10.memento
+- [ ] 11.interpreter
