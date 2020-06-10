@@ -18,9 +18,9 @@ class Adaptee{
 	}
 };
 
-class Adatper: public Target {
+class Adapter: public Target {
 	public:
-	Adatper(Adaptee* a): adaptee_(a) {
+	Adapter(Adaptee* a): adaptee_(a) {
 	}
 	void Foo() override {
 		adaptee_->oldFoo();
@@ -31,7 +31,7 @@ class Adatper: public Target {
 
 int main(int argc, char* argv[])
 {
-	Adatper* a = new Adatper(new Adaptee);
+	Adapter* a = new Adapter(new Adaptee);
 	a->Foo();
 	delete a;
 	return 0;

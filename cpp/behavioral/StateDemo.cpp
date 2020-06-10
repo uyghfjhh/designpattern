@@ -73,10 +73,6 @@ class TCPEstablished : public TCPState, public SingleTon<TCPEstablished>
 class TCPClosed : public TCPState, public SingleTon<TCPClosed>
 {
 	public:
-		void ActiveOpen(TCPConnetion* c) override {
-			ChangeState(c, &TCPEstablished::getInstance());
-		}
-
 		void PassiveOpen(TCPConnetion* c) override {
 			ChangeState(c, &TCPListen::getInstance());
 		}
@@ -85,7 +81,7 @@ class TCPClosed : public TCPState, public SingleTon<TCPClosed>
 			return name_;
 		}
 	private:
-		const string name_ = "CLOSED";
+		string name_ = "CLOSED";
 
 };
 
