@@ -8,7 +8,13 @@
 4. 构建者模式(builder)	[博客](https://blog.csdn.net/uyghfjhh/article/details/106431668)
 
 ## 结构型模式
-1. 组合模式(composite) [博客](https://blog.csdn.net/uyghfjhh/article/details/106631227)
+1. 组合模式(composite)   [博客](https://blog.csdn.net/uyghfjhh/article/details/106631227)
+2. 装饰器模式(decorator) [博客](https://blog.csdn.net/uyghfjhh/article/details/106677936)
+3. 外观模式(facade)      [博客](https://blog.csdn.net/uyghfjhh/article/details/106653850)
+4. 享元模式(flyweight)   [博客](https://blog.csdn.net/uyghfjhh/article/details/106653827)
+5. 代理模式(proxy)       [博客](https://blog.csdn.net/uyghfjhh/article/details/106653801)
+6. 适配器模式(adapter)   [博客](https://blog.csdn.net/uyghfjhh/article/details/106653716)
+7. 桥接模式(bridge)      [博客](https://blog.csdn.net/uyghfjhh/article/details/106678194)
 
 ## 行为型模式
 1. 迭代器模式(iterator)	[博客](https://blog.csdn.net/uyghfjhh/article/details/106557989)
