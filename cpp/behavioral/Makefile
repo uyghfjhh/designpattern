@@ -1,6 +1,6 @@
 CPPFLAGS +=  -std=c++11 -g -Wall
 LDFLAGS += 
-BINARIES := iterator strategy chanofresponsibility templatemethod state1 state2 mediator visitor command 
+BINARIES := iterator strategy chanofresponsibility templatemethod state1 state2 mediator visitor command observer memento interpreter
 
 HEADERS=$(wildcard *.h)
 all: $(BINARIES)
@@ -17,7 +17,8 @@ state2: StateDemo2.cpp
 mediator: MediatorDemo.cpp
 visitor: VisitorDemo.cpp
 command: CommandDemo.cpp
-
+memento: MementoDemo.cpp
+interpreter: InterpreterDemo.cpp
 
 .PHONY: all clean print
 

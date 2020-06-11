@@ -1,5 +1,5 @@
 # 设计模式
-示例代码使用c++11, java实现.
+示例代码使用c++11, java实现, 后续如果有空, 还会增加其他语言的实现
 
 ## 创建型模式 
 1. 单例模式(singleton)	[博客](https://blog.csdn.net/uyghfjhh/article/details/106435106)
@@ -22,7 +22,12 @@
 3. 策略模式(strategy)		[博客](https://blog.csdn.net/uyghfjhh/article/details/106560955)
 4. 命令模式(command)    [博客](https://blog.csdn.net/uyghfjhh/article/details/106577761)
 5. 中介者模式(mediator) [博客](https://blog.csdn.net/uyghfjhh/article/details/106580476)
-
+6. 观察者模式(observer) [博客](https://blog.csdn.net/uyghfjhh/article/details/106696392)
+7. 模板方法(template method) [博客](https://blog.csdn.net/uyghfjhh/article/details/106696589)
+8. 职责链模式(chain of reponsibility) [博客](https://blog.csdn.net/uyghfjhh/article/details/106696677)
+9. 访问者模式(visitor)  [博客](https://blog.csdn.net/uyghfjhh/article/details/106696742)
+10. 备忘录模式(memento) [博客](https://blog.csdn.net/uyghfjhh/article/details/106696783)
+11. 解释器模式(interpreter) [博客](https://blog.csdn.net/uyghfjhh/article/details/106696952)
 
 
 熬夜撸码不易, 如果有帮助到您, 烦请赏个star
