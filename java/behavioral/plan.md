@@ -8,5 +8,5 @@ behavioral (total number is 11)
 - [x] 7.chain of responsibility
 - [x] 8.template method
 - [x] 9.visitor
-- [ ] 10.memento
-- [ ] 11.interpreter
+- [x] 10.memento
+- [x] 11.interpreter
